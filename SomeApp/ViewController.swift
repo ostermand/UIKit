@@ -8,12 +8,21 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
+    @IBAction func showMessage() {
+        print("you press Hollo World button!")
     }
-
-
+    
+    @IBAction func printMessage() {
+        print("Hello!")
+    }
+     
+    @IBAction func message() {
+        print("Wow!")
+    }
 }
+
+// code 1
+//my code
+
+
 
